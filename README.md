@@ -29,6 +29,6 @@ otp_enc plaintext1 keyfile 50761 > ciphertext1
 
 **Decrypting a file:**
 ```
-otp_dec [ciphertext] [keyfile] [portnumber] > [plaintextfile]
+otp_dec [ciphertextfile] [keyfile] [portnumber] > [plaintextfile]
 otp_dec ciphertext1 keyfile 50762 > newplaintext1
 ```
